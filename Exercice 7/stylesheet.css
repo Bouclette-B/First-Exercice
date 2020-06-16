@@ -1,0 +1,18 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+    animation-name: glissement;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes glissement {
+    0%{background-color:chartreuse;top: 0px; left:0px;}
+    25%{background-color:aquamarine;top: 100px; left:0px;}
+    50%{background-color:pink;top: 100px; left:200px;}
+    75%{background-color:palevioletred;top: 0px; left:200px;}
+    100%{background-color:grey;top: 0px; left:0px;}
+    
+}

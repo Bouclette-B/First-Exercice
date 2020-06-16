@@ -1,0 +1,54 @@
+body{
+    height:100vh;
+    width: 100%;
+}
+.all{
+    width:75%;
+    height: 50%;
+    border: solid 2px black;
+    margin: auto;
+    display:flex;
+    flex-direction:column;
+
+}
+
+div:first-child{
+    margin-top: 0px;
+}
+div:last-child{
+    margin-bottom: 0px;
+}
+
+.fb{
+    background-color: blue;
+    flex-grow:2;
+}
+
+.red{
+    flex-grow:1;
+    background-color: red;
+    margin:20px 0px;
+}
+
+.three{
+    flex-grow:4;
+    display: flex;
+}
+
+.three .orange{
+    
+    background-color: orange;
+    flex-grow: 2;
+}
+
+.three .tb{
+    
+    background-color: blue;
+    flex-grow: 3;
+    margin: 0px 20px;
+} 
+
+.three .green{
+    background-color:green;
+    flex-grow:2;
+}

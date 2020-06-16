@@ -1,0 +1,28 @@
+@font-face{
+    font-family: Montitre;
+    src: url(BUFFIED_.TTF);
+}
+
+@font-face{
+    font-family: Monpremierp;
+    src: url(Starjedi.ttf);
+
+}
+
+@font-face{
+    font-family: Mondeuxiemep;
+    src: url("pricedown bl.ttf");
+
+}
+
+h1{
+    font-family: "Montitre";
+}
+
+.first {
+    font-family: Monpremierp;
+}
+
+.second{
+    font-family: Mondeuxiemep;
+}

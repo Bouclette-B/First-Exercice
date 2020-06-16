@@ -1,0 +1,31 @@
+p{
+    display: none; 
+    text-align: center;  
+}
+
+@media screen and (min-width:1000px) {
+    .verte{
+        display: block;  
+        background-color: chartreuse;
+    }
+    
+}
+
+@media screen and (min-width:501px) and (max-width:999px){
+    .orange{
+        display: block;
+        background-color: orange;
+
+    }
+}
+
+@media screen and (max-width:500px) {
+    .rouge{
+        display: block;
+        background-color:red;
+    }
+}
+
+
+
+
